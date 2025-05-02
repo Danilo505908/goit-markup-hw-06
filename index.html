@@ -41,7 +41,72 @@
           </li>
         </ul>
       </address>
-    </div>
+
+      <button class="burger-btn" type="button" data-menu-open>
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" data-menu-close>
+            <svg class="menu-close-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-list">
+              <li class="mobile-item">Studio</li>
+              <li class="mobile-item">Portfolio</li>
+              <li class="mobile-item">Contacts</li>
+            </ul>
+          </nav>
+          <address class="contacts-menu">
+            <ul class="contacts-list-menu">
+              <li class="contacts-item-menu">
+                <a class="contacts-link-menu" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+              <li class="contacts-item-menu">
+                <a class="contacts-link-menu" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+          </address>
+
+          <div class="mobile-social">
+            <ul class="mobile-social-list">
+              <li class="mobile-social-item">
+                <a href="#" class="mobile-social-link">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-insta"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a href="#" class="mobile-social-link">
+                  <svg class="mobile-social-icon" width="24" height="40">
+                    <use href="./images/icons.svg#icon-twiter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a href="#" class="mobile-social-link">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a href="#" class="mobile-social-link">
+                  <svg class="mobile-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
   </header>
 
   <main>
@@ -56,7 +121,7 @@
 
     <!-- #region main features -->
     <section id="features" class="page-features">
-      <div class="container">
+      <div class="container features">
         <h2 class="visually-hidden">Features</h2>
         <ul class="features-list">
           <li class="features-item">
@@ -113,12 +178,12 @@
     <!-- #endregion main features -->
 
     <!-- #region main team -->
-    <section id="team" class="page-team">
+    <!-- <section id="team" class="page-team">
       <div class="container">
         <h2 class="section-title">Our Team</h2>
-        <ul class="team-list">
-          <!-- 1 -->
-          <li class="team-card">
+        <ul class="team-list"> -->
+    <!-- 1 -->
+    <!-- <li class="team-card">
             <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero" width="264" height="260" />
             <div class="card-content">
               <h3 class="team-title">Mark Guerrero</h3>
@@ -154,10 +219,10 @@
                 </li>
               </ul>
             </div>
-          </li>
+          </li> -->
 
-          <!-- 2 -->
-          <li class="team-card">
+    <!-- 2 -->
+    <!-- <li class="team-card">
             <img src="./images/tom-ford.jpg" alt="Tom Ford" width="264" height="260" />
             <div class="card-content">
               <h3 class="team-title">Tom Ford</h3>
@@ -193,10 +258,10 @@
                 </li>
               </ul>
             </div>
-          </li>
+          </li> -->
 
-          <!-- 3 -->
-          <li class="team-card">
+    <!-- 3 -->
+    <!-- <li class="team-card">
             <img src="./images/camila-garcia.jpg" alt="Camila Garcia" width="264" height="260" />
             <div class="card-content">
               <h3 class="team-title">Camila Garcia</h3>
@@ -232,10 +297,10 @@
                 </li>
               </ul>
             </div>
-          </li>
+          </li> -->
 
-          <!-- 4 -->
-          <li class="team-card">
+    <!-- 4 -->
+    <!-- <li class="team-card">
             <img src="./images/daniel-wilson.jpg" alt="Daniel Wilson" width="264" height="260" />
             <div class="card-content">
               <h3 class="team-title">Daniel Wilson</h3>
@@ -274,11 +339,11 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
     <!-- #endregion main team -->
 
     <!-- #region main portfolio -->
-    <section id="portfolio" class="page-portfolio">
+    <!-- <section id="portfolio" class="page-portfolio">
       <div class="container">
         <h2 class="our-title">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -362,12 +427,12 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
     <!-- #endregion main portfolio -->
   </main>
 
   <!-- #region footer -->
-  <footer class="page-footer">
+  <!-- <footer class="page-footer">
     <div class="container footer-container">
       <div class="footer-main">
         <a href="./index.html" class="logo-web">Web <span class="logo-footer">Studio</span></a>
@@ -427,7 +492,7 @@
   </footer>
   <!-- #endregion footer -->
 
-  <div class="modal-backdrop">
+  <!-- <div class="modal-backdrop">
     <div class="modal">
       <button class="modal-btn" type="button">
         <svg class="modal-close-svg" width="8" height="8">
@@ -482,9 +547,11 @@
           </label>
         </div>
         <button class="modal-form-btn" type="submit">Send</button>
-      </form>
-    </div>
+      </form> -->
   </div>
+  </div>
+
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>
